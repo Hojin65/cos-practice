@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     cout << "p = " << p << endl;
     cout << "&a = " << &a << endl;
     cout << "*p = " << *p << endl;
-    cout << "arr = " << &arr[0] << endl;
+    cout << "arr = " << arr << endl;
 
     return 0;
 }
