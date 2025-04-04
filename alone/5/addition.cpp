@@ -3,8 +3,8 @@
 using namespace std;
 int uadd_ok(unsigned a, unsigned b) {
     unsigned int max = 0xffffffff;
-    unsigned int diff = max -a;
-    return diff >b;
+    unsigned int diff = max - a;
+    return diff > b;
 }
 int tadd_ok(int a, int b) {
     int t, overflow;
