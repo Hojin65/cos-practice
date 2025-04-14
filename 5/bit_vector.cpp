@@ -199,7 +199,7 @@ void bit_addition(char *bv1, char *bv2, char *result)
     char sum;
     char carry[BIT_VECTOR_LENGTH] = {0, };
 
-    for (i=LSB_INDEX; i<MSB_INDEX; i++)
+    for (i=LSB_INDEX; i<=MSB_INDEX; i++)
     {
         sum = bv1[i] +bv2[i] + carry[i];
         // if (sum >1)
