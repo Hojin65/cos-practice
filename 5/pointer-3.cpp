@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
 	p= arr + 2;
 
 	cout<<"arr[2]=" << arr[2] <<endl;
+	cout<<"arr = " << arr << endl;
+	cout<< "arr+1 = " << arr+1<<endl;
     cout << "arr+2=" << arr+2 <<endl;
     cout << "*(arr+2)="<<*(arr+2)<<endl;
     cout << "p=" << p <<endl;

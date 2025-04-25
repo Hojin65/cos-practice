@@ -10,9 +10,9 @@ int add(int a, int b)
 {
     int i, c;
     c = 0;
-    for (i=0; i<b; i++)
+    for (i=a; i<b; i++)
         c+=i;
-    return c;
+    // return c;
 }
 
 int main() {
@@ -22,7 +22,7 @@ int main() {
     cout << "insert the second number" << endl;
     cin >> b;
 
-    if (check(a, b) == 0)
+    if (check == 0)
         cout << "the result (a>=b): " << add(b, a) << endl;
     else
         cout << "the result (a < b): " << add(a, b) << endl;
